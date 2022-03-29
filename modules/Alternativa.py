@@ -1,5 +1,8 @@
 casa = {}
 orientaciones = ['NORTE', 'SUR', 'ESTE', 'OESTE']
+import totareadme
+
+totareadme.readme('C:/Users/marti/Documents/GitHub/parcial-poo')
 
 class Casa():
   global casa
