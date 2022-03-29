@@ -1,9 +1,5 @@
 casa = {}
 orientaciones = ['NORTE', 'SUR', 'ESTE', 'OESTE']
-from totareadme import readme
-
-readme('C:/Users/marti/Documents/GitHub/parcial-poo')
-
 class Casa():
   global casa
   def Paredes(self, orientacion):
