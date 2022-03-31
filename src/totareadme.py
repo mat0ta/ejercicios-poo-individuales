@@ -20,7 +20,7 @@ def readme(ruta):
             readme.close()
             readme_ejercicios = open(str(ruta) + '/README.md', 'a')
             for j in range(len(ejercicios_array)):
-                readme_ejercicios.write('<h2>' + ejercicios_array[j][0] + '</h2>\n\n' + ejercicios_array[j][1] + '\n\nLa función empleada para crear dicho algoritmo es la siguiente:\n\n```py\n\n' + open(str(ruta) + ejercicios_array[j][2], 'r').read() + '\n\n```\n\n')
+                readme_ejercicios.write('<h2>' + ejercicios_array[j][0] + '</h2>\n\n' + ejercicios_array[j][1] + '\n\nEl código empleado para crear dicho algoritmo es el siguiente:\n\n```py\n\n' + open(str(ruta) + ejercicios_array[j][2], 'r').read() + '\n\n```\n\n')
             print('[tota_README] - Readme terminado.')
         else:
             print('[tota_README] - El readme ya está hecho. Para poder volver a hacerlo deberás borrar su contenido.')
